@@ -96,6 +96,9 @@
     padding-right: 15rem;
 }
 
+#cardio, #strength {
+    display: none;
+}
 
 /* Fallback for Edge
 -------------------------------------------------- */
