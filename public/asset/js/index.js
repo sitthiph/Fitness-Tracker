@@ -31,4 +31,13 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("strength").style.display = "block";
         document.getElementById("cardio").style.display = "none";
     });
+
+    document.getElementById("cardio-select-display").addEventListener("click", function () {
+        document.getElementById("cardio-display").style.display = "block";
+        document.getElementById("strength-display").style.display = "none";
+    });
+    document.getElementById("strength-select-display").addEventListener("click", function () {
+        document.getElementById("strength-display").style.display = "block";
+        document.getElementById("cardio-display").style.display = "none";
+    });
 });

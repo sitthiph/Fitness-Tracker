@@ -96,7 +96,7 @@
     padding-right: 15rem;
 }
 
-#cardio, #strength {
+#cardio, #strength, #cardio-display, #strength-display {
     display: none;
 }
 

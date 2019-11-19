@@ -195,8 +195,19 @@
           <i class="fas fa-table"></i>
           Exercise History</div>
         <div class= "card-body">
+
+          <div class="row pb-2">
+            <div class="btn-group btn-group-toggle mx-auto" data-toggle="buttons">
+              <label class="btn btn-primary" id="cardio-select-display">
+                <input type="radio" class="btn btn-outline-primary col">Cardio</input>
+              </label>
+              <label class="btn btn-primary" id="strength-select-display">
+                <input type="radio" class="btn btn-outline-primary col">Strength</input>
+              </label>
+            </div>
+          </div>
           <div class="table-responsive" id="cardio-display">
-            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+            <table class="table table-bordered" id="cardio-dataTable" width="100%" cellspacing="0">
               <thead>
               <tr>
                 <th>Type of exercise</th>
@@ -227,7 +238,7 @@
             </table>
           </div>
           <div class="table-responsive" id="strength-display">
-            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+            <table class="table table-bordered" id="strength-dataTable" width="100%" cellspacing="0">
               <thead>
               <tr>
                 <th>Type of exercise</th>
