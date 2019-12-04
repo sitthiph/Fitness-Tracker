@@ -1,5 +1,5 @@
 # Fitness Tracker
-Eat Together currently in its development phase and is currently not working. It is not yet deployed.
+Fitness Tracker currently in its development phase and is currently not working. It is not yet deployed.
 
 ## Overview
 Are you tired of not finding a simple and suitable workout tracker that is not a spreadsheet? Look no further than this Fitness Tracker. 
