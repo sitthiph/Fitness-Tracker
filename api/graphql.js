@@ -122,3 +122,5 @@ const schema = new GraphQLSchema({
   query: RootQuery,
   mutation: RootMutationType
 });
+
+module.exports = schema;
