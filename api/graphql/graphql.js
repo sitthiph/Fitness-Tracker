@@ -5,7 +5,7 @@ const {
   GraphQLInt,
   GraphQLList,
   GraphQLNonNull
-} = require("api/graphql/graphql");
+} = require("graphql");
 
 const UserType = new GraphQLObjectType({
   name: "User",
